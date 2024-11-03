@@ -1,0 +1,63 @@
+body
+{
+    background-color:rgb(255, 170, 0);
+    font-family: "Phoenix Heavy";
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p
+{
+    font-family: "Phoenix Normal";
+}
+
+.container
+{
+    position: relative;
+}
+
+h1
+{
+    position: relative;
+}
+
+.phoenixlogo
+{
+    font-family: "Welcome to Phoenix";
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+
+.massive
+{
+    color: dimgrey;
+    font-size: 500%;
+}
+
+.overlay
+{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+@font-face
+{
+    font-family: "Welcome to Phoenix";
+    src: url("anurati.woff2") format('woff');
+}
+
+@font-face
+{
+    font-family: "Phoenix Normal";
+    src: url("HelveticaNeue-Roman.woff2") format("woff");
+}
+
+@font-face
+{
+    font-family: "Phoenix Heavy";
+    src:url("phoenixheavy.woff2") format("woff");
+}
